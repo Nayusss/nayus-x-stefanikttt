@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(https://i.pinimg.com/564x/a5/83/29/a58329386e128945eaf5a23ab3190089.jpg);    
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-content: center;
+    margin: 30px 0;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    height: 100%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+@media(min-width:576px){
+    .container{
+        width:540px;
+    }
+}
+@media(min-width:768px){
+    .container{
+        width:720px;
+    }
+}
+@media(min-width:992px){
+    .container{
+        width: 960pxpx;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width:1170px;
+    }
+}
+@media(min-width:1400px){
+    .container{
+        width:1320px;
+    }
+}
+
+.container .content{
+    color: #000000;
+    text-align: center;
+}
+
+.container .content h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.container .content p{
+    font-size: 1.6rem;
+}
+
+@media(min-width:768px){
+    .container .content h1{
+    font-size: 6rem;
+    }
+    .container .content p{
+        font-size: 1.8rem;
+    }
+}
+
+.container .content .counter{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.container .content .counter>div{
+    width: 10rem;
+    height: 10rem;
+    border-radius: .5rem;
+    border: .1rem solid #727272;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container .content .counter>div .title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    border-top: .1rem solid #727272;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.back{
+    font-size: 15px;
+    font-family: "Belanosima", sans-serif; ;
+}
+.icons i {
+    font-size: 30px;
+    color: #000000;
+    height: 40px;
+    width: 65px;
+    border-radius: 20%;
+    background-color: #d3d0d0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.autor{
+    font-size: 15px;
+    color: #6d6d6d;
+    justify-content: center;
+    text-align: center;
+    font-family: "Belanosima", sans-serif; 
+}
+.icons i:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+}
